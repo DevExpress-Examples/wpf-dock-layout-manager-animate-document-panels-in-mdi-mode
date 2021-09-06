@@ -8,8 +8,6 @@
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E2190
 
-
-Imports Microsoft.VisualBasic
 Imports System
 Imports System.Collections.Generic
 Imports System.Linq
@@ -32,6 +30,7 @@ Namespace DocumentGroup_MDI_Ex
 	''' </summary>
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Public Sub New()
 			InitializeComponent()
 			Dim d As New MDIDocument()
