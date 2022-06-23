@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # WPF Dock Layout Manager - Animate DocumentPanels in MDI Mode
 
-This example animates [DocumentPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) in [DockLayoutManager](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager) when in the Multi-Document Interface (MDI Mode). To create animation effects, create an implicit style for the [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel). This style uses triggers that are set to the following properties to run the animation:
+This example animates [DocumentPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) in [DockLayoutManager](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager) in Multi-Document Interface (MDI) mode. To create animation effects, create an implicit style for the [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel). This style uses triggers that are set to the following properties to run the animation:
 
 - IsMaximized
 - IsMinimized
