@@ -2,17 +2,23 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4192)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+# WPF Dock Layout Manager - Animate DocumentPanels in MDI Mode
+
+This example animates [DocumentPanels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) in [DockLayoutManager](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockLayoutManager) when in the Multi-Document Interface (MDI Mode). To create animation effects, create an implicit style for the [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel). This style uses triggers that are set to the following properties to run the animation:
+
+- IsMaximized
+- IsMinimized
+- Closed
+
+<img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-animate-documentpanels-in-docklayoutmanager-when-documentgroups-mdistyle-is-set-to-mdi-e4192/21.1.5-update/wpf-dock-layout-manager-animate-documentgroups.gif" width="685px"/>
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
 * [MainWindow.xaml](./CS/DocumentGroup_MDI_Ex/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DocumentGroup_MDI_Ex/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DocumentGroup_MDI_Ex/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DocumentGroup_MDI_Ex/MainWindow.xaml.vb))
 <!-- default file list end -->
-# How to animate DocumentPanels in DockLayoutManager when DocumentGroup's MDIStyle is set to MDI
 
+## Documentation
 
-<p>This example demonstrates how to animate DocumentPanels in DockLayoutManager when DocumentGroup's MDIStyle is set to MDI. To create animation effects, an implicit style for the DocumentPanel was created. To run animation, this style uses triggers that are set to the following properties:</p><p>-IsMaximized</p><p>-IsMinimized</p><p>-Closed</p>
-
-<br/>
-
-
+- [Multiple-Document Interface (MDI)](https://docs.devexpress.com/WPF/7209)
