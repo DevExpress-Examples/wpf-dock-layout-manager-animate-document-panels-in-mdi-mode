@@ -11,14 +11,12 @@ This example animates [DocumentPanels](https://docs.devexpress.com/WPF/DevExpres
 - IsMinimized
 - Closed
 
-<img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-animate-documentpanels-in-docklayoutmanager-when-documentgroups-mdistyle-is-set-to-mdi-e4192/21.1.5-update/wpf-dock-layout-manager-animate-documentgroups.gif" width="685px"/>
+![](./wpf-dock-layout-manager-animate-documentgroups.gif)
 
-<!-- default file list -->
 ## Files to Look At
 
 * [MainWindow.xaml](./CS/DocumentGroup_MDI_Ex/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/DocumentGroup_MDI_Ex/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/DocumentGroup_MDI_Ex/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/DocumentGroup_MDI_Ex/MainWindow.xaml.vb))
-<!-- default file list end -->
 
 ## Documentation
 
